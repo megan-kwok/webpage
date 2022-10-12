@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: #75a873;
+    font-family: 'Patrick Hand' , serif;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    padding: 25px;
+  }
+
+  body{
+    background-color: rgb(245, 234, 171);
+  }
+
+  div p{
+    border: 1px solid #99be97;
+    border-width: 4px;
+    background-color: #75a873;
+    color: white;
+    font-family: 'short stack', serif;
+    font-size: medium;
+    float: left;
+    width: 330px;
+    margin: 25px;
+    margin-top: 25px;
+    padding: 10px;
+  }
+
+  div.gallery {
+    margin-right: 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #75a873;
+    float: right;
+    width: 220px;
+    position: static;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .button {
+    background-color: #75a873;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'short stack' , serif;
+    font-size: 12px;
+    margin-left: 25px;
+    float: left;
+    cursor: pointer;
+  }
+
+  .button2 {
+    background-color: #75a873;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'short stack' , serif;
+    font-size: 12px;
+    margin-left: 25px;
+    float: left;
+    cursor: pointer;
+  }
+
+  .parent{
+    display: flex;
+    margin: 375px 45px 45px 25px;
+
+  }
+
+  .child {
+    justify-content: center;
+  }
+
+  .child2 {
+    float: right;
+    margin-top: 50px;
+    margin-left: 65px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    border: 1px solid #99be97;
+    border-width: 4px;
+    background-color: #75a873;
+    color: white;
+    font-family: 'short stack', serif;
+    font-size: medium;
+    padding: 25px;
+  }
